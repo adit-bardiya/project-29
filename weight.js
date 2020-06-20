@@ -7,7 +7,7 @@ class Weight{
           'density':10.0
       }
       this.image = loadImage("sprites/bird.png")
-      this.body = Bodies.rectangle(x, y,40,40,options);
+      this.body = Bodies.rectangle(50,200,20,20,options);
       this.width = 40;
       this.height = 40;
       World.add(world, this.body);
